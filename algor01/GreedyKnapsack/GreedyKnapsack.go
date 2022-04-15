@@ -28,15 +28,6 @@ func InitKS(int_weight, int_value []int) *Ks {
 	return &ks
 }
 
-// func (ks ks) initgk(int_weight, int_value []int) {
-
-// 	for i := 0; i < len(int_weight); i++ {
-// 		ks[i].weight = int_weight[i]
-// 		ks[i].value = int_value[i]
-// 		ks[i].profit = 0
-// 	}
-// }
-
 func (ks *Ks) ComputeRatio() {
 	r := *ks
 	for i := 0; i < 5; i++ {
@@ -94,5 +85,3 @@ func (ks *Ks) ComputeProfit() (float64, map[int]float64) {
 	}
 	return profit, xi
 }
-
-
