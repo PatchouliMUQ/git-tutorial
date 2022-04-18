@@ -1,8 +1,8 @@
 package main
 
 import (
-	gk "GoMyself/algor01/GreedyKnapsack"
 	"fmt"
+	gk "github.com/git-tutorial/GreedyKnapsack"
 )
 
 func main() {
