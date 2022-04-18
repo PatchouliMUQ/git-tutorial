@@ -15,6 +15,7 @@ func main() {
 	ks.ComputeRatio()
 	ks.SortRatio()
 	profit, xi := ks.ComputeProfit()
+	fmt.Println("贪心算法背包问题输出结果：")
 	fmt.Println("Version:", "v1.0.0")
 	fmt.Println("背包的最大收益:")
 	fmt.Println(profit)
