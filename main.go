@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	gk "github.com/git-tutorial/GreedyKnapsack"
 )
 
@@ -14,6 +15,7 @@ func main() {
 	ks.ComputeRatio()
 	ks.SortRatio()
 	profit, xi := ks.ComputeProfit()
+	fmt.Println("Version:", "v1.0.0")
 	fmt.Println("背包的最大收益:")
 	fmt.Println(profit)
 	fmt.Println("最大收益情况下各种物品放入背包的对应比例:([物品]比例)")
